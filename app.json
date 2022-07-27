@@ -2,17 +2,17 @@
     "env": {
         "API_ID": {"description": "Se obtiene en https://my.telegram.org"},
         "API_HASH": {"description": "Se obtiene en https://my.telegram.org"},
-        "DATABASE_URL": {"description": "MongoDB URL"},
+        "DATABASE_URL": {"description": "URL de MongoDB"},
         "LOG_CHANNEL_ID": {"description": "ID de un canal para los registros"},
         "SESSION_STRING": {
-            "description": "[USER MODE] - Hacerlo después de crear el bot, se hace con `bash genStr` en Console",
+            "description": "[MODO USUARIO] - Hacerlo después de crear el bot, se hace con «bash genStr» en Console",
             "value": "skip",
             "required": false},
         "BOT_TOKEN": {
-            "description": "[BOT MODE] - Token del Bot",
+            "description": "[MODO BOT] - Token del Bot",
             "required": false},
         "OWNER_ID": {
-            "description": "[BOT MODE] - ID de la Cuenta",
+            "description": "[MODO BOT] - ID de la Cuenta",
             "required": false},
         "HEROKU_APP_NAME": {
             "description": "Nombre de la app",
